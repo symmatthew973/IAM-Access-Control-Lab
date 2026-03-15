@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Alice",
+    "department": "HR",
+    "role": "HR_Manager",
+    "active": true
+  },
+  {
+    "name": "Bob",
+    "department": "Engineering",
+    "role": "Engineer",
+    "active": false
+  },
+  {
+    "name": "Charlie",
+    "department": "Finance",
+    "role": "Finance_Analyst",
+    "active": true
+  },
+  {
+    "name": "Dana",
+    "department": "Engineering",
+    "role": "Engineer",
+    "active": true
+  }
+]

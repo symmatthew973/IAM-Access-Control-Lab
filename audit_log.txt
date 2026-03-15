@@ -1,0 +1,10 @@
+2026-03-14 20:53:12 - ACCESS GRANTED: Alice -> HR_Portal
+2026-03-14 20:53:12 - ACCESS GRANTED: Charlie -> Employee_Directory
+2026-03-14 20:53:12 - ACCESS GRANTED: Dana -> Code_Repository
+2026-03-14 21:12:50 - ACCESS GRANTED: Alice -> HR_Portal
+2026-03-14 21:12:50 - ACCESS DENIED: Bob attempted unauthorized access to Finance_System
+2026-03-14 21:12:50 - ACCESS GRANTED: Charlie -> Employee_Directory
+2026-03-14 21:12:50 - USER PROVISIONED: Dana (Engineer, Engineering)
+2026-03-14 21:12:50 - ACCESS GRANTED: Dana -> Code_Repository
+2026-03-14 21:12:50 - USER DEPROVISIONED: Bob
+2026-03-14 21:12:50 - ACCESS DENIED: inactive user Bob attempted Code_Repository

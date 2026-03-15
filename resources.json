@@ -1,0 +1,6 @@
+{
+  "HR_Portal": ["HR_Manager"],
+  "Code_Repository": ["Engineer"],
+  "Finance_System": ["Finance_Analyst"],
+  "Employee_Directory": ["HR_Manager", "Engineer", "Finance_Analyst"]
+}
