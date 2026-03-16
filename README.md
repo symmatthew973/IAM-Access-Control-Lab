@@ -1,47 +1,59 @@
-# IAM Access Control Lab
+IAM Access Control Lab
 
-## Overview
-This project simulates a basic Identity and Access Management (IAM) system using Python.  
-It demonstrates how organizations manage user identities, enforce access permissions, and track security events.
+Introduction
 
-The system implements Role-Based Access Control (RBAC), user provisioning and deprovisioning, and audit logging for security monitoring.
+This is a Python simulation of a straightforward Identity and Access Management – or IAM – system. The lab shows how companies might deal with identities, oversee access, and watch out for security occurrences.
 
-## Features
-- Role-Based Access Control (RBAC)
-- User provisioning
-- User deprovisioning
-- Least privilege enforcement
-- Security audit logging
+The system includes Role-Based Access Control, or RBAC, user provisioning, user deprovisioning, and security checking.
 
-## Technologies Used
-- Python
-- JSON
-- Git / GitHub
+Features
 
-## System Architecture
-- `users.json` stores user identities and roles
-- `resources.json` defines which roles can access specific systems
-- `access_control.py` contains the core IAM logic and access enforcement
-- `audit_log.txt` records access events and security logs
+ Role-Based Access Control (RBAC)
+ User provisioning
+ User deprovisioning
+ Enforcement of least privilege
+ Security auditing
 
-## Example Workflow
-1. Users and resources are loaded from JSON files
-2. A user attempts to access a protected resource
-3. The system verifies role permissions
-4. Access is granted or denied
-5. The event is recorded in the audit log
+Technologies
 
-## Example Output
-Example terminal output:
+ Python
+ JSON
+ Git / GitHub
 
-- Access granted: Alice -> HR_Portal
-- Access denied: Bob -> Finance_System
-- User Dana provisioned
-- User Bob deprovisioned
+How it’s Built
 
-## Security Concepts Demonstrated
-- Identity lifecycle management
-- Role-based authorization
-- Least privilege
-- Access auditing
-- Unauthorized access detection
+ `users.json`: holds details of users and their roles;
+ `resources.json`: holds details of which roles are allowed to use which resources;
+ `access_control.py`: holds the code that manages identities and controls access to resources;
+ `audit_log.txt`: holds a record of access requests and security details.
+
+How it Works
+
+The system gets users and resources from the JSON files.
+
+Then, a user asks for access to a resource.
+
+The system sees if the user’s role gives them permission to use that resource.
+
+The user is either allowed or not allowed access to the resource.
+
+An item is added to the audit log.
+
+What You’ll See
+
+Here’s some of what the system might display when it’s running:
+
+Access granted: Alice -> HR_Portal
+Access denied: Bob -> Finance_System
+User Dana provisioned
+User Bob deprovisioned
+
+Security Ideas Shown
+
+ Managing identities over time
+ Authorisation based on roles
+ Least privilege
+ Access auditing
+* Finding attempts to get access without permission.
+
+
