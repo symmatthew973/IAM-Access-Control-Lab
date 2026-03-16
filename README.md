@@ -56,4 +56,12 @@ Security Ideas Shown
  Access auditing
 * Finding attempts to get access without permission.
 
+* ## Example Run
+
+Example IAM access control simulation running in a terminal.
+
+![IAM Demo](IAM-DEMO.png)
+
+add IAM demo screenshot to README
+
 
